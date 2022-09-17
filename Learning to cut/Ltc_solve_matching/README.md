@@ -1,6 +1,5 @@
-# IEOR4575 Project
-Instructor: Professor Shipra Agrawal\
-Assistants: Yunhao Tang, Abhi Gupta
+# Learning to cut Project
+
 
 ## Installation
 The only dependency is gurobipy. You can install gurobipy into your `ieor4575` conda environment:
