@@ -1,0 +1,35 @@
+2022-06-13 16:42:10,550 INFO    MainThread:36584 [wandb_setup.py:_flush():76] Loading settings from /Users/zhangqiming/.config/wandb/settings
+2022-06-13 16:42:10,551 INFO    MainThread:36584 [wandb_setup.py:_flush():76] Loading settings from /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/settings
+2022-06-13 16:42:10,551 INFO    MainThread:36584 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-06-13 16:42:10,551 INFO    MainThread:36584 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'project/exmaple.py', 'program': '/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py'}
+2022-06-13 16:42:10,551 INFO    MainThread:36584 [wandb_init.py:_log_setup():428] Logging user logs to /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/logs/debug.log
+2022-06-13 16:42:10,552 INFO    MainThread:36584 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/logs/debug-internal.log
+2022-06-13 16:42:10,552 INFO    MainThread:36584 [wandb_init.py:init():462] calling init triggers
+2022-06-13 16:42:10,552 INFO    MainThread:36584 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2022-06-13 16:42:10,553 INFO    MainThread:36584 [wandb_init.py:init():515] starting backend
+2022-06-13 16:42:10,553 INFO    MainThread:36584 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-06-13 16:42:10,579 INFO    MainThread:36584 [backend.py:ensure_launched():217] starting backend process...
+2022-06-13 16:42:11,178 INFO    MainThread:36584 [backend.py:ensure_launched():222] started backend process with pid: 36596
+2022-06-13 16:42:11,189 INFO    MainThread:36584 [wandb_init.py:init():525] backend started and connected
+2022-06-13 16:42:11,249 INFO    MainThread:36584 [wandb_init.py:init():596] updated telemetry
+2022-06-13 16:42:11,310 INFO    MainThread:36584 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2022-06-13 16:42:13,358 INFO    MainThread:36584 [wandb_run.py:_on_init():1924] communicating current version
+2022-06-13 16:42:13,511 INFO    MainThread:36584 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.12.18 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-06-13 16:42:13,512 INFO    MainThread:36584 [wandb_init.py:init():662] starting run threads in backend
+2022-06-13 16:42:16,385 INFO    MainThread:36584 [wandb_run.py:_console_start():1898] atexit reg
+2022-06-13 16:42:16,395 INFO    MainThread:36584 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2022-06-13 16:42:16,397 INFO    MainThread:36584 [wandb_run.py:_redirect():1776] Redirecting console.
+2022-06-13 16:42:16,402 INFO    MainThread:36584 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-06-13 16:42:16,406 INFO    MainThread:36584 [wandb_init.py:init():688] run started, returning control to user process
+2022-06-13 16:43:37,298 INFO    MainThread:36584 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 255
+2022-06-13 16:43:37,317 INFO    MainThread:36584 [wandb_run.py:_restore():1839] restore
+2022-06-13 16:43:39,917 INFO    MainThread:36584 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 859
+  total_bytes: 859
+}
+

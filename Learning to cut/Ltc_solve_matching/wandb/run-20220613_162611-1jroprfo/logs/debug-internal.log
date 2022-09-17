@@ -1,0 +1,318 @@
+2022-06-13 16:26:14,165 INFO    MainThread:36437 [internal.py:wandb_internal():93] W&B internal server running at pid: 36437, started at: 2022-06-13 16:26:14.165304
+2022-06-13 16:26:14,169 INFO    WriterThread:36437 [datastore.py:open_for_write():75] open: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/run-1jroprfo.wandb
+2022-06-13 16:26:14,174 DEBUG   SenderThread:36437 [sender.py:send():232] send: header
+2022-06-13 16:26:14,174 DEBUG   SenderThread:36437 [sender.py:send():232] send: run
+2022-06-13 16:26:14,957 INFO    SenderThread:36437 [dir_watcher.py:__init__():197] watching files in: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files
+2022-06-13 16:26:14,957 INFO    SenderThread:36437 [sender.py:_start_run_threads():814] run started: 1jroprfo with start time 1655151972
+2022-06-13 16:26:14,958 DEBUG   SenderThread:36437 [sender.py:send():232] send: summary
+2022-06-13 16:26:14,958 INFO    SenderThread:36437 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 16:26:14,983 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: check_version
+2022-06-13 16:26:14,984 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: check_version
+2022-06-13 16:26:15,162 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: run_start
+2022-06-13 16:26:15,165 DEBUG   HandlerThread:36437 [meta.py:__init__():35] meta init
+2022-06-13 16:26:15,165 DEBUG   HandlerThread:36437 [meta.py:__init__():49] meta init done
+2022-06-13 16:26:15,165 DEBUG   HandlerThread:36437 [meta.py:probe():209] probe
+2022-06-13 16:26:15,167 DEBUG   HandlerThread:36437 [meta.py:_setup_git():199] setup git
+2022-06-13 16:26:15,217 DEBUG   HandlerThread:36437 [meta.py:_setup_git():206] setup git done
+2022-06-13 16:26:15,218 DEBUG   HandlerThread:36437 [meta.py:_save_pip():53] save pip
+2022-06-13 16:26:15,219 DEBUG   HandlerThread:36437 [meta.py:_save_pip():67] save pip done
+2022-06-13 16:26:15,219 DEBUG   HandlerThread:36437 [meta.py:_save_conda():74] save conda
+2022-06-13 16:26:15,969 INFO    Thread-12 :36437 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/requirements.txt
+2022-06-13 16:26:15,970 INFO    Thread-12 :36437 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/wandb-summary.json
+2022-06-13 16:26:15,971 INFO    Thread-12 :36437 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/conda-environment.yaml
+2022-06-13 16:26:17,972 INFO    Thread-12 :36437 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/conda-environment.yaml
+2022-06-13 16:26:18,037 DEBUG   HandlerThread:36437 [meta.py:_save_conda():84] save conda done
+2022-06-13 16:26:18,037 DEBUG   HandlerThread:36437 [meta.py:probe():247] probe done
+2022-06-13 16:26:18,047 DEBUG   SenderThread:36437 [sender.py:send():232] send: files
+2022-06-13 16:26:18,047 INFO    SenderThread:36437 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-13 16:26:18,094 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:26:18,094 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:26:18,301 DEBUG   SenderThread:36437 [sender.py:send():232] send: telemetry
+2022-06-13 16:26:18,676 INFO    Thread-16 :36437 [upload_job.py:push():132] Uploaded file /var/folders/14/bvt96sfn1fb2lngbphsrng0m0000gn/T/tmpnri6s34owandb/1s7wvcft-wandb-metadata.json
+2022-06-13 16:26:18,977 INFO    Thread-12 :36437 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/output.log
+2022-06-13 16:26:18,977 INFO    Thread-12 :36437 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/wandb-metadata.json
+2022-06-13 16:26:20,985 INFO    Thread-12 :36437 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/output.log
+2022-06-13 16:26:33,309 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:26:33,310 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:26:44,144 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:26:46,089 INFO    Thread-12 :36437 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/config.yaml
+2022-06-13 16:26:48,650 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:26:48,651 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:27:03,805 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:27:03,806 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:27:15,153 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:27:19,009 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:27:19,010 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:27:34,183 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:27:34,183 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:27:46,164 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:27:49,697 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:27:49,698 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:28:05,065 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:28:05,066 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:28:17,224 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:28:20,262 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:28:20,263 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:28:35,461 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:28:35,461 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:28:48,255 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:28:50,616 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:28:50,616 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:29:05,777 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:29:05,777 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:29:19,284 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:29:20,935 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:29:20,935 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:29:36,104 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:29:36,105 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:29:50,323 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:29:51,273 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:29:51,274 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:30:06,429 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:30:06,430 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:30:21,380 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:30:21,589 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:30:21,590 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:30:36,744 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:30:36,744 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:30:51,915 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:30:51,916 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:30:53,118 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:31:08,124 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:31:08,124 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:31:23,300 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:31:23,300 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:31:23,524 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:31:38,535 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:31:38,535 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:31:53,699 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:31:53,700 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:31:54,530 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:32:08,852 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:32:08,853 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:32:24,015 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:32:24,015 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:32:26,326 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:32:39,182 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:32:39,182 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:32:54,344 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:32:54,344 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:32:58,638 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:33:09,524 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:33:09,524 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:33:24,692 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:33:24,692 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:33:30,990 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:33:39,870 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:33:39,871 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:33:55,050 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:33:55,051 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:34:03,214 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:34:10,221 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:34:10,221 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:34:25,383 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:34:25,383 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:34:35,560 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:34:40,551 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:34:40,552 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:34:55,725 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:34:55,726 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:35:07,773 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:35:10,885 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:35:10,885 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:35:26,072 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:35:26,072 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:35:40,049 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:35:41,237 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:35:41,237 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:35:56,411 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:35:56,412 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:36:11,416 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:36:11,625 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:36:11,625 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:36:26,782 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:36:26,782 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:36:41,979 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:36:41,979 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:36:42,485 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:36:57,151 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:36:57,151 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:37:12,512 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:37:12,513 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:37:13,566 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:37:27,685 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:37:27,686 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:37:42,881 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:37:42,881 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:37:44,863 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:37:58,335 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:37:58,335 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:39:17,739 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:39:17,740 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:39:21,831 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:39:32,954 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:39:32,955 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:39:48,340 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:39:48,341 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:39:52,859 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:40:03,571 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:40:03,571 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:40:19,004 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:40:19,004 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:40:23,849 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:40:34,173 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:40:34,174 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:40:49,529 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:40:49,531 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:40:54,916 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:41:04,708 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:41:04,708 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:41:19,887 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:41:19,887 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:41:25,912 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:41:35,057 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:41:35,057 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:41:35,147 WARNING MainThread:36437 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-06-13 16:41:35,285 DEBUG   SenderThread:36437 [sender.py:send():232] send: telemetry
+2022-06-13 16:41:37,648 DEBUG   SenderThread:36437 [sender.py:send():232] send: exit
+2022-06-13 16:41:37,648 INFO    SenderThread:36437 [sender.py:send_exit():368] handling exit code: 255
+2022-06-13 16:41:37,648 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:37,648 INFO    SenderThread:36437 [sender.py:send_exit():370] handling runtime: 922
+2022-06-13 16:41:37,649 INFO    SenderThread:36437 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 16:41:37,650 INFO    SenderThread:36437 [sender.py:send_exit():376] send defer
+2022-06-13 16:41:37,650 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:37,651 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:41:37,651 INFO    HandlerThread:36437 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-13 16:41:37,651 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:41:37,652 INFO    SenderThread:36437 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-06-13 16:41:37,652 INFO    SenderThread:36437 [sender.py:transition_state():389] send defer: 1
+2022-06-13 16:41:37,652 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:41:37,652 INFO    HandlerThread:36437 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-13 16:41:37,659 INFO    Thread-12 :36437 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/wandb-summary.json
+2022-06-13 16:41:37,660 INFO    Thread-12 :36437 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/output.log
+2022-06-13 16:41:37,729 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:41:37,730 INFO    SenderThread:36437 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-06-13 16:41:37,730 INFO    SenderThread:36437 [sender.py:transition_state():389] send defer: 2
+2022-06-13 16:41:37,731 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:41:37,731 INFO    HandlerThread:36437 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-13 16:41:37,731 DEBUG   SenderThread:36437 [sender.py:send():232] send: stats
+2022-06-13 16:41:37,732 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:41:37,732 INFO    SenderThread:36437 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-06-13 16:41:37,732 INFO    SenderThread:36437 [sender.py:transition_state():389] send defer: 3
+2022-06-13 16:41:37,733 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:41:37,733 INFO    HandlerThread:36437 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-13 16:41:37,733 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:41:37,733 INFO    SenderThread:36437 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-06-13 16:41:37,733 INFO    SenderThread:36437 [sender.py:transition_state():389] send defer: 4
+2022-06-13 16:41:37,734 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:41:37,734 INFO    HandlerThread:36437 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-13 16:41:37,734 DEBUG   SenderThread:36437 [sender.py:send():232] send: summary
+2022-06-13 16:41:37,735 INFO    SenderThread:36437 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 16:41:37,736 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:41:37,736 INFO    SenderThread:36437 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-06-13 16:41:37,736 INFO    SenderThread:36437 [sender.py:transition_state():389] send defer: 5
+2022-06-13 16:41:37,736 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:41:37,737 INFO    HandlerThread:36437 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-13 16:41:37,737 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:41:37,737 INFO    SenderThread:36437 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-06-13 16:41:37,756 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:37,914 INFO    SenderThread:36437 [sender.py:transition_state():389] send defer: 6
+2022-06-13 16:41:37,915 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:37,916 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:41:37,916 INFO    HandlerThread:36437 [handler.py:handle_request_defer():164] handle defer: 6
+2022-06-13 16:41:37,916 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:41:37,916 INFO    SenderThread:36437 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-06-13 16:41:37,916 INFO    SenderThread:36437 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-06-13 16:41:38,018 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:38,665 INFO    SenderThread:36437 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/config.yaml
+2022-06-13 16:41:38,666 INFO    SenderThread:36437 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/wandb-summary.json
+2022-06-13 16:41:38,666 INFO    SenderThread:36437 [dir_watcher.py:finish():342] scan: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files
+2022-06-13 16:41:38,667 INFO    SenderThread:36437 [dir_watcher.py:finish():356] scan save: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/requirements.txt requirements.txt
+2022-06-13 16:41:38,667 INFO    SenderThread:36437 [dir_watcher.py:finish():356] scan save: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/output.log output.log
+2022-06-13 16:41:38,676 INFO    SenderThread:36437 [dir_watcher.py:finish():356] scan save: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/config.yaml config.yaml
+2022-06-13 16:41:38,683 INFO    SenderThread:36437 [dir_watcher.py:finish():356] scan save: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/wandb-summary.json wandb-summary.json
+2022-06-13 16:41:38,687 INFO    SenderThread:36437 [dir_watcher.py:finish():356] scan save: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/conda-environment.yaml conda-environment.yaml
+2022-06-13 16:41:38,688 INFO    SenderThread:36437 [dir_watcher.py:finish():356] scan save: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/wandb-metadata.json wandb-metadata.json
+2022-06-13 16:41:38,689 INFO    SenderThread:36437 [sender.py:transition_state():389] send defer: 7
+2022-06-13 16:41:38,689 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:38,725 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:41:38,725 INFO    HandlerThread:36437 [handler.py:handle_request_defer():164] handle defer: 7
+2022-06-13 16:41:38,726 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:41:38,726 INFO    SenderThread:36437 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-06-13 16:41:38,726 INFO    SenderThread:36437 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-13 16:41:38,797 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:38,797 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:38,900 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:38,900 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:39,007 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:39,007 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:39,112 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:39,112 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:39,216 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:39,217 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:39,321 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:39,321 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:39,427 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:39,427 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:39,533 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:39,534 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:39,637 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:39,637 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:39,743 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:39,743 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:39,846 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:39,847 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:39,950 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:39,950 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:40,053 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:40,053 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:40,158 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:40,158 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:40,261 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:40,262 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:40,369 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:40,370 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:40,477 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:40,478 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:40,584 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:40,585 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:40,650 INFO    Thread-24 :36437 [upload_job.py:push():132] Uploaded file /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/conda-environment.yaml
+2022-06-13 16:41:40,652 INFO    Thread-22 :36437 [upload_job.py:push():132] Uploaded file /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/config.yaml
+2022-06-13 16:41:40,653 INFO    Thread-21 :36437 [upload_job.py:push():132] Uploaded file /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/output.log
+2022-06-13 16:41:40,656 INFO    Thread-23 :36437 [upload_job.py:push():132] Uploaded file /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/wandb-summary.json
+2022-06-13 16:41:40,660 INFO    Thread-20 :36437 [upload_job.py:push():132] Uploaded file /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/files/requirements.txt
+2022-06-13 16:41:40,693 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:40,694 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:40,802 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:40,802 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:40,863 INFO    Thread-11 :36437 [sender.py:transition_state():389] send defer: 8
+2022-06-13 16:41:40,864 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:41:40,864 INFO    HandlerThread:36437 [handler.py:handle_request_defer():164] handle defer: 8
+2022-06-13 16:41:40,865 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:41:40,865 INFO    SenderThread:36437 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-06-13 16:41:40,912 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:41,095 INFO    SenderThread:36437 [sender.py:transition_state():389] send defer: 9
+2022-06-13 16:41:41,096 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:41,097 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:41:41,097 INFO    HandlerThread:36437 [handler.py:handle_request_defer():164] handle defer: 9
+2022-06-13 16:41:41,097 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:41:41,098 INFO    SenderThread:36437 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-06-13 16:41:41,098 INFO    SenderThread:36437 [sender.py:transition_state():389] send defer: 10
+2022-06-13 16:41:41,099 DEBUG   SenderThread:36437 [sender.py:send():232] send: final
+2022-06-13 16:41:41,099 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:41:41,100 INFO    HandlerThread:36437 [handler.py:handle_request_defer():164] handle defer: 10
+2022-06-13 16:41:41,100 DEBUG   SenderThread:36437 [sender.py:send():232] send: footer
+2022-06-13 16:41:41,100 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:41:41,100 INFO    SenderThread:36437 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-06-13 16:41:41,202 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:41:41,202 DEBUG   SenderThread:36437 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:41:41,203 INFO    SenderThread:36437 [file_pusher.py:join():150] waiting for file pusher
+2022-06-13 16:41:42,058 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: sampled_history
+2022-06-13 16:41:42,061 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: get_summary
+2022-06-13 16:41:42,064 DEBUG   HandlerThread:36437 [handler.py:handle_request():141] handle_request: shutdown
+2022-06-13 16:41:42,064 INFO    HandlerThread:36437 [handler.py:finish():806] shutting down handler
+2022-06-13 16:41:42,100 INFO    WriterThread:36437 [datastore.py:close():279] close: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_162611-1jroprfo/run-1jroprfo.wandb
+2022-06-13 16:41:42,958 INFO    SenderThread:36437 [sender.py:finish():1110] shutting down sender
+2022-06-13 16:41:42,959 INFO    SenderThread:36437 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-13 16:41:42,959 INFO    SenderThread:36437 [file_pusher.py:join():150] waiting for file pusher
+2022-06-13 16:41:43,234 INFO    MainThread:36437 [internal.py:handle_exit():80] Internal process exited

@@ -1,0 +1,7 @@
+loading training instances, dir instances/randomip_n8_m6 idx 99
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+Traceback (most recent call last):
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 93, in <module>
+    print(states.size)
+AttributeError: 'list' object has no attribute 'size'

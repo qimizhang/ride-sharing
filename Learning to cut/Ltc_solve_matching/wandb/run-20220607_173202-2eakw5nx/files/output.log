@@ -1,0 +1,84 @@
+loading training instances, dir instances/randomip_n60_m60 idx 0
+loading training instances, dir instances/randomip_n60_m60 idx 1
+loading training instances, dir instances/randomip_n60_m60 idx 2
+loading training instances, dir instances/randomip_n60_m60 idx 3
+loading training instances, dir instances/randomip_n60_m60 idx 4
+loading training instances, dir instances/randomip_n60_m60 idx 5
+loading training instances, dir instances/randomip_n60_m60 idx 6
+loading training instances, dir instances/randomip_n60_m60 idx 7
+loading training instances, dir instances/randomip_n60_m60 idx 8
+loading training instances, dir instances/randomip_n60_m60 idx 9
+loading training instances, dir instances/randomip_n60_m60 idx 10
+loading training instances, dir instances/randomip_n60_m60 idx 11
+loading training instances, dir instances/randomip_n60_m60 idx 12
+loading training instances, dir instances/randomip_n60_m60 idx 13
+loading training instances, dir instances/randomip_n60_m60 idx 14
+loading training instances, dir instances/randomip_n60_m60 idx 15
+loading training instances, dir instances/randomip_n60_m60 idx 16
+loading training instances, dir instances/randomip_n60_m60 idx 17
+loading training instances, dir instances/randomip_n60_m60 idx 18
+loading training instances, dir instances/randomip_n60_m60 idx 19
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1758, in <module>
+    main()
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1752, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1147, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/rl_cuts.py", line 226, in <module>
+    s = env.reset()   # samples a random instance every time env.reset() is called
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 161, in reset
+    return self.env_now.reset()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 176, in reset
+    return self.env.reset()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 107, in reset
+    s, d = self._reset()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 103, in _reset
+    self.A,self.b,self.cuts_a,self.cuts_b,self.done,self.oldobj,self.x,self.tab = compute_state(self.A0,self.b0,self.c0)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 49, in compute_state
+    cuts_a = []
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 49, in compute_state
+    cuts_a = []
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 980, in _pydevd_bundle.pydevd_cython_darwin_37_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 525, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 768, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 760, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 254, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.do_wait_suspend
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 889, in do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1758, in <module>
+    main()
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1752, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1147, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/rl_cuts.py", line 226, in <module>
+    s = env.reset()   # samples a random instance every time env.reset() is called
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 161, in reset
+    return self.env_now.reset()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 176, in reset
+    return self.env.reset()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 107, in reset
+    s, d = self._reset()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 103, in _reset
+    self.A,self.b,self.cuts_a,self.cuts_b,self.done,self.oldobj,self.x,self.tab = compute_state(self.A0,self.b0,self.c0)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 49, in compute_state
+    cuts_a = []
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 49, in compute_state
+    cuts_a = []
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 980, in _pydevd_bundle.pydevd_cython_darwin_37_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 525, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 768, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 760, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 254, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.do_wait_suspend
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 889, in do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt

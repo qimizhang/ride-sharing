@@ -1,0 +1,170 @@
+loading training instances, dir instances/randomip_n14_m38 idx 88
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[0]
+[0]
+[0]
+[0]
+/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/site-packages/cvxpy/expressions/expression.py:593: UserWarning:
+This use of ``*`` has resulted in matrix multiplication.
+Using ``*`` for matrix multiplication has been deprecated since CVXPY 1.1.
+    Use ``*`` for matrix-scalar and vector-scalar multiplication.
+    Use ``@`` for matrix-matrix and matrix-vector multiplication.
+    Use ``multiply`` for elementwise multiplication.
+This code path has been hit 1 times so far.
+  warnings.warn(msg, UserWarning)
+/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/site-packages/cvxpy/expressions/expression.py:593: UserWarning:
+This use of ``*`` has resulted in matrix multiplication.
+Using ``*`` for matrix multiplication has been deprecated since CVXPY 1.1.
+    Use ``*`` for matrix-scalar and vector-scalar multiplication.
+    Use ``@`` for matrix-matrix and matrix-vector multiplication.
+    Use ``multiply`` for elementwise multiplication.
+This code path has been hit 2 times so far.
+  warnings.warn(msg, UserWarning)
+[1]
+[1]
+[0]
+[0]
+[0]
+[0]
+size of A :  (38, 14)
+size of B :  (38,)
+size of c :  (1, 14)
+The optimal value is 0.0
+A solution x is
+[-0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0.]
+size of A for solution :  (38, 52)
+size of B for solution:  (38,)
+size of c for solution:  (52,)
+oringin IP obj = -34.288196405269915
+oringin IP solution = [  9.   0.   2.   8.   0.   0.   5.   1.  -0.  -0.   0.   1.  17.  -0.
+  33. 102.  40. 106.  40.  82.  48.   5.  89.  67.  41.   0.  25.  37.
+  51.  47.  58.   1.  25.  34.  64.   0.  38.   1.  67.  32.  75.  36.
+  20.  20.   0.   1.   1.  26.  93.  73.  56.  32.]
+size of A :  (88, 14)
+size of B :  (88,)
+size of c :  (1, 14)
+The optimal value is 0.0
+A solution x is
+[-0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0.]
+size of A for solution :  (88, 102)
+size of B for solution:  (88,)
+size of c for solution:  (102,)
+Interrupt request received
+final IP obj = -26.999999972114114
+final IP solution = [ 4.00000000e+00 -0.00000000e+00  4.00000000e+00 -0.00000000e+00
+ -0.00000000e+00 -0.00000000e+00 -0.00000000e+00 -0.00000000e+00
+  1.00000000e+00  2.00000000e+00  1.00000000e+00  2.00000000e+00
+  2.20000000e+01  5.00000000e+00  2.70000000e+01  1.07000000e+02
+  9.00000001e+00  1.16000000e+02  1.80000000e+01  9.40000000e+01
+  5.10000000e+01  2.00000001e+00  9.00000000e+01  5.80000000e+01
+  1.50000000e+01  2.30000000e+01  1.50000000e+01  8.30000000e+01
+  5.50000000e+01  4.00000000e+01  7.10000000e+01  4.00000001e+00
+  1.00000001e+00  2.00000000e+01  4.60000000e+01  1.40000000e+01
+  6.00000000e+01  7.00000001e+00  6.40000000e+01  3.40000000e+01
+  6.80000000e+01  6.50000000e+01  8.00000001e+00  4.10000000e+01
+  2.00000000e+01  0.00000000e+00  3.00000001e+00  6.30000000e+01
+  8.90000000e+01  7.80000000e+01  6.60000000e+01  4.50000000e+01
+  7.00000003e+00  3.30000001e+01  6.30000002e+01  6.70000003e+01
+  8.50000004e+01  1.15000001e+02  1.13000001e+02  5.80000003e+01
+  1.35000001e+02  1.65000001e+02  2.72000001e+02  4.00000001e+01
+  6.80000002e+01  9.60000003e+01  1.19000000e+02  1.42000000e+02
+  1.68000001e+02  1.91000001e+02  2.14000001e+02  2.05000001e+02
+  1.97000001e+02  2.04000001e+02  2.72000001e+02  2.71000001e+02
+  2.63000001e+02  2.70000001e+02  6.62000003e+02  2.71000001e+02
+  3.74000002e+02  7.48000004e+02  1.12200001e+03  3.70000001e+01
+  3.40000000e+01  6.40000000e+01  9.10000000e+01  1.06000000e+02
+  7.70000003e+01  1.94000000e+02  3.00000000e+02  4.01000000e+02
+  4.26000000e+02  4.31000000e+02  6.40000002e+01  9.00000003e+01
+  1.17000000e+02  1.13000000e+02  2.26000001e+02  6.10000002e+01
+  2.11000001e+02  3.27000001e+02]

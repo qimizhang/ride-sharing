@@ -1,0 +1,230 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+828
+46
+18
+1
+846
+47
+54
+3
+864
+48
+72
+4
+882
+49
+90
+5
+900
+50
+216
+12
+918
+51
+324
+18
+936
+52
+270
+15
+954
+53
+270
+15
+972
+54
+468
+26
+990
+55
+432
+24
+1008
+56
+342
+19
+1026
+57
+306
+17
+1044
+58
+288
+16
+1062
+59
+594
+33
+1080
+60
+666
+37
+1098
+61
+612
+34
+1116
+62
+594
+33
+1134
+63
+486
+27
+1152
+64
+612
+34
+1170
+65
+612
+34
+1188
+66
+540
+30
+1206
+67
+522
+29
+1224
+68
+648
+36
+1242
+69
+666
+37
+1260
+70
+594
+33
+1278
+71
+612
+34
+1296
+72
+720
+40
+1314
+73
+738
+41
+1332
+74
+954
+53
+1350
+75
+666
+37
+1368
+76
+738
+41
+1386
+77
+738
+41
+1404
+78
+792
+44
+1422
+79
+900
+50
+1440
+80
+972
+54
+1458
+81
+828
+46
+1476
+82
+954
+53
+1494
+83
+882
+49
+1512
+84
+1008
+56
+1530
+85
+1008
+56
+1548
+86
+936
+52
+1566
+87
+954
+53
+1584
+88
+972
+54
+1602
+89
+936
+52
+1620
+90
+1170
+65
+1638
+91
+1170
+65
+1656
+92
+1296
+72
+1674
+93
+1080
+60
+1692
+94
+1134
+63
+1710
+95
+1116
+62
+size of A :  (46, 18)
+size of B :  (46,)
+size of c :  (1, 18)
+size of A for solution :  (46, 64)
+size of B for solution:  (46,)
+size of c for solution:  (64,)
+oringin IP obj = -4.461811217487877
+oringin IP solution = [-0.  1.  1.  1. -0.  1. -0. -0. -0.  1. -0. -0. -0. -0.  1.  1.  0.  1.
+  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  1.  0.  1.  1.
+  1.  0.  1.  1.  1.  1.  0.  0.  1.  0.  0.  1.  1.  1.  0.  1.  0.  0.
+  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.]
+size of A :  (96, 18)
+size of B :  (96,)
+size of c :  (1, 18)
+size of A for solution :  (96, 114)
+size of B for solution:  (96,)
+size of c for solution:  (114,)
+Traceback (most recent call last):
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 180, in <module>
+    compute_solution()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 173, in compute_solution
+    objint_f, solution_int = gurobiutils.GurobiIntSolve(A, b, c)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gurobiutils.py", line 20, in GurobiIntSolve
+    solution.append(X[i].X);
+  File "src/gurobipy/var.pxi", line 125, in gurobipy.Var.__getattr__
+  File "src/gurobipy/var.pxi", line 153, in gurobipy.Var.getAttr
+  File "src/gurobipy/attrutil.pxi", line 100, in gurobipy.__getattr
+AttributeError: Unable to retrieve attribute 'X'

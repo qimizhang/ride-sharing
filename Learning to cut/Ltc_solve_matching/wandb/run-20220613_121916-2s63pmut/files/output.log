@@ -1,0 +1,19 @@
+loading training instances, dir instances/randomip_n14_m38 idx 30
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+size of A :  (38, 14)
+size of B :  (38,)
+size of c :  (1, 14)
+size of A for solution :  (38, 52)
+size of B for solution:  (38,)
+size of c for solution:  (52,)
+oringin IP obj = -37.60013430791688
+oringin IP solution = [  6.  -0.  -0.   9.  23.  -0.  -0.  -0.   1.  -0.   2.   2.   0.  -0.
+  82.  35.  76.  16.  60.  62.  88.  38.   2.  76. 109.   1.  55.  82.
+  24.   0.  42.  40.  28.  27.  81.  23.  99.  22.  41.  96.  43.  84.
+  10.  88.  96.   0.  44.   0.  91.   2.  67.  93.]
+size of A :  (88, 14)
+size of B :  (88,)
+size of c :  (1, 14)
+size of A for solution :  (88, 102)
+size of B for solution:  (88,)

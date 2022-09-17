@@ -1,0 +1,8 @@
+loading training instances, dir instances/randomip_n2_m10 idx 99
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+1
+Traceback (most recent call last):
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 121, in <module>
+    new_state, r, done, _ = test_env.step(list(a_max))
+TypeError: 'numpy.int64' object is not iterable

@@ -1,0 +1,31 @@
+loading training instances, dir instances/randomip_n8_m6 idx 0
+loading training instances, dir instances/randomip_n8_m6 idx 1
+loading training instances, dir instances/randomip_n8_m6 idx 2
+loading training instances, dir instances/randomip_n8_m6 idx 3
+loading training instances, dir instances/randomip_n8_m6 idx 4
+loading training instances, dir instances/randomip_n8_m6 idx 5
+loading training instances, dir instances/randomip_n8_m6 idx 6
+loading training instances, dir instances/randomip_n8_m6 idx 7
+loading training instances, dir instances/randomip_n8_m6 idx 8
+loading training instances, dir instances/randomip_n8_m6 idx 9
+loading training instances, dir instances/randomip_n8_m6 idx 10
+loading training instances, dir instances/randomip_n8_m6 idx 11
+loading training instances, dir instances/randomip_n8_m6 idx 12
+loading training instances, dir instances/randomip_n8_m6 idx 13
+loading training instances, dir instances/randomip_n8_m6 idx 14
+loading training instances, dir instances/randomip_n8_m6 idx 15
+loading training instances, dir instances/randomip_n8_m6 idx 16
+loading training instances, dir instances/randomip_n8_m6 idx 17
+loading training instances, dir instances/randomip_n8_m6 idx 18
+loading training instances, dir instances/randomip_n8_m6 idx 19
+loading training instances, dir instances/randomip_n8_m6 idx 21
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+0
+[0]
+Traceback (most recent call last):
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 81, in <module>
+    new_state, r, done, _ = env.step(list(a))
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 164, in step
+    assert self.env_now is not None
+AssertionError

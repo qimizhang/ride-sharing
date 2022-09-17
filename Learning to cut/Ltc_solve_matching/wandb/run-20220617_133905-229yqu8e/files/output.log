@@ -1,0 +1,51 @@
+loading training instances, dir instances/randomip_n2_m10 idx 90
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+size of A :  (10, 2)
+size of B :  (10,)
+size of c :  (1, 2)
+The optimal value is 2.1973932882540543
+A solution x is
+[-0.  4.]
+size of A for solution :  (10, 12)
+size of B for solution:  (10,)
+size of c for solution:  (12,)
+oringin IP obj = -2.1973932882540543
+oringin IP solution = [-0.  4.  2. 10. 11. 14.  3.  6. 18. 14. 19. 19.]
+size of A :  (15, 2)
+size of B :  (15,)
+size of c :  (1, 2)
+The optimal value is 0.0
+A solution x is
+[0. 0.]
+size of A for solution :  (15, 17)
+size of B for solution:  (15,)
+size of c for solution:  (17,)
+final IP obj = 0.0
+final IP solution = [ 0.  0. 18. 18. 19. 18. 19. 18. 18. 18. 19. 19.  2.  1.  1.  0.  0.]
+/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/site-packages/cvxpy/expressions/expression.py:593: UserWarning:
+This use of ``*`` has resulted in matrix multiplication.
+Using ``*`` for matrix multiplication has been deprecated since CVXPY 1.1.
+    Use ``*`` for matrix-scalar and vector-scalar multiplication.
+    Use ``@`` for matrix-matrix and matrix-vector multiplication.
+    Use ``multiply`` for elementwise multiplication.
+This code path has been hit 1 times so far.
+  warnings.warn(msg, UserWarning)
+/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/site-packages/cvxpy/expressions/expression.py:593: UserWarning:
+This use of ``*`` has resulted in matrix multiplication.
+Using ``*`` for matrix multiplication has been deprecated since CVXPY 1.1.
+    Use ``*`` for matrix-scalar and vector-scalar multiplication.
+    Use ``@`` for matrix-matrix and matrix-vector multiplication.
+    Use ``multiply`` for elementwise multiplication.
+This code path has been hit 2 times so far.
+  warnings.warn(msg, UserWarning)

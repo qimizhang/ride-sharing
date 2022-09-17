@@ -1,0 +1,45 @@
+2022-06-13 14:10:02,861 INFO    MainThread:34044 [internal.py:wandb_internal():93] W&B internal server running at pid: 34044, started at: 2022-06-13 14:10:02.860694
+2022-06-13 14:10:02,862 INFO    WriterThread:34044 [datastore.py:open_for_write():75] open: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/run-3ayvjx14.wandb
+2022-06-13 14:10:02,865 DEBUG   SenderThread:34044 [sender.py:send():232] send: header
+2022-06-13 14:10:02,865 DEBUG   SenderThread:34044 [sender.py:send():232] send: run
+2022-06-13 14:10:03,085 DEBUG   HandlerThread:34044 [handler.py:handle_request():141] handle_request: check_version
+2022-06-13 14:10:03,089 INFO    SenderThread:34044 [dir_watcher.py:__init__():197] watching files in: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files
+2022-06-13 14:10:03,089 INFO    SenderThread:34044 [sender.py:_start_run_threads():814] run started: 3ayvjx14 with start time 1655143801
+2022-06-13 14:10:03,089 DEBUG   SenderThread:34044 [sender.py:send():232] send: summary
+2022-06-13 14:10:03,089 INFO    SenderThread:34044 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 14:10:03,089 DEBUG   SenderThread:34044 [sender.py:send_request():246] send_request: check_version
+2022-06-13 14:10:03,287 DEBUG   HandlerThread:34044 [handler.py:handle_request():141] handle_request: run_start
+2022-06-13 14:10:03,289 DEBUG   HandlerThread:34044 [meta.py:__init__():35] meta init
+2022-06-13 14:10:03,289 DEBUG   HandlerThread:34044 [meta.py:__init__():49] meta init done
+2022-06-13 14:10:03,289 DEBUG   HandlerThread:34044 [meta.py:probe():209] probe
+2022-06-13 14:10:03,290 DEBUG   HandlerThread:34044 [meta.py:_setup_git():199] setup git
+2022-06-13 14:10:03,333 DEBUG   HandlerThread:34044 [meta.py:_setup_git():206] setup git done
+2022-06-13 14:10:03,334 DEBUG   HandlerThread:34044 [meta.py:_save_pip():53] save pip
+2022-06-13 14:10:03,334 DEBUG   HandlerThread:34044 [meta.py:_save_pip():67] save pip done
+2022-06-13 14:10:03,335 DEBUG   HandlerThread:34044 [meta.py:_save_conda():74] save conda
+2022-06-13 14:10:04,094 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/conda-environment.yaml
+2022-06-13 14:10:04,094 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/requirements.txt
+2022-06-13 14:10:04,094 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/wandb-summary.json
+2022-06-13 14:10:06,211 DEBUG   HandlerThread:34044 [meta.py:_save_conda():84] save conda done
+2022-06-13 14:10:06,212 DEBUG   HandlerThread:34044 [meta.py:probe():247] probe done
+2022-06-13 14:10:06,219 DEBUG   SenderThread:34044 [sender.py:send():232] send: files
+2022-06-13 14:10:06,219 INFO    SenderThread:34044 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-13 14:10:06,224 DEBUG   HandlerThread:34044 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 14:10:06,225 DEBUG   SenderThread:34044 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 14:10:06,871 DEBUG   SenderThread:34044 [sender.py:send():232] send: telemetry
+2022-06-13 14:10:06,990 INFO    Thread-11 :34044 [upload_job.py:push():132] Uploaded file /var/folders/14/bvt96sfn1fb2lngbphsrng0m0000gn/T/tmp565re87_wandb/1fo2r4kz-wandb-metadata.json
+2022-06-13 14:10:07,102 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/conda-environment.yaml
+2022-06-13 14:10:07,102 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/wandb-metadata.json
+2022-06-13 14:10:07,102 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/output.log
+2022-06-13 14:10:09,111 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/output.log
+2022-06-13 14:10:11,115 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/output.log
+2022-06-13 14:10:13,120 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/output.log
+2022-06-13 14:10:15,125 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/output.log
+2022-06-13 14:10:17,127 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/output.log
+2022-06-13 14:10:19,135 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/output.log
+2022-06-13 14:10:21,141 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/output.log
+2022-06-13 14:10:21,888 DEBUG   HandlerThread:34044 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 14:10:21,889 DEBUG   SenderThread:34044 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 14:10:23,149 INFO    Thread-7  :34044 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_141001-3ayvjx14/files/output.log
+2022-06-13 14:10:26,972 WARNING MainThread:34044 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-06-13 14:10:27,021 DEBUG   SenderThread:34044 [sender.py:send():232] send: telemetry

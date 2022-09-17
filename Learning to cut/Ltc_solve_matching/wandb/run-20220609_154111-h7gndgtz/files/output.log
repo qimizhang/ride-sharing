@@ -1,0 +1,9 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+84
+6
+14
+1
+/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/rl_cuts.py:187: RuntimeWarning: invalid value encountered in true_divide
+  norm_b = (b - min_2) / (max_2 - min_2)
+/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/rl_cuts.py:189: RuntimeWarning: invalid value encountered in true_divide

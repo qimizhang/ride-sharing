@@ -1,0 +1,34 @@
+loading training instances, dir instances/randomip_n8_m6 idx 0
+loading training instances, dir instances/randomip_n8_m6 idx 1
+loading training instances, dir instances/randomip_n8_m6 idx 2
+loading training instances, dir instances/randomip_n8_m6 idx 3
+loading training instances, dir instances/randomip_n8_m6 idx 4
+loading training instances, dir instances/randomip_n8_m6 idx 5
+loading training instances, dir instances/randomip_n8_m6 idx 6
+loading training instances, dir instances/randomip_n8_m6 idx 7
+loading training instances, dir instances/randomip_n8_m6 idx 8
+loading training instances, dir instances/randomip_n8_m6 idx 9
+loading training instances, dir instances/randomip_n8_m6 idx 10
+loading training instances, dir instances/randomip_n8_m6 idx 11
+loading training instances, dir instances/randomip_n8_m6 idx 12
+loading training instances, dir instances/randomip_n8_m6 idx 13
+loading training instances, dir instances/randomip_n8_m6 idx 14
+loading training instances, dir instances/randomip_n8_m6 idx 15
+loading training instances, dir instances/randomip_n8_m6 idx 16
+loading training instances, dir instances/randomip_n8_m6 idx 17
+loading training instances, dir instances/randomip_n8_m6 idx 18
+loading training instances, dir instances/randomip_n8_m6 idx 19
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+Traceback (most recent call last):
+  File "rl_cuts.py", line 251, in <module>
+    prob = actor.compute_prob(curr_constraints, available_cuts)
+  File "rl_cuts.py", line 123, in compute_prob
+    prob = torch.nn.functional.softmax(self.model(constraints, cuts), dim=-1)
+  File "/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "rl_cuts.py", line 99, in forward
+    A_embed = self.lstm1.forward(constraints)
+  File "rl_cuts.py", line 70, in forward
+    inputs = torch.FloatTensor(input).view(1, -1, self.input_size)
+RuntimeError: shape '[1, -1, 15]' is invalid for input of size 54
