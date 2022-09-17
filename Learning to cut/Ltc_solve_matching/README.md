@@ -82,7 +82,7 @@ We should see the printing of step information till the episode ends.
 If you do not provide --instance-idx, then the environment will load random instance out of the 100 instances in every episode. It is sometimes easier to train on a single instance to start with, instead of a pool of instances.
 
 
-To run model I used here: 
+To train and test the model: 
 ``` 
 python rl_cuts.py 
 ```
