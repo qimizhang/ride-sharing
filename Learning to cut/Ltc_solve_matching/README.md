@@ -2,7 +2,7 @@
 
 
 ## Installation
-The only dependency is gurobipy. You can install gurobipy into your `ieor4575` conda environment:
+The only dependency is gurobipy. Install gurobipy:
 
 ```
 $ conda install -c gurobi gurobi
