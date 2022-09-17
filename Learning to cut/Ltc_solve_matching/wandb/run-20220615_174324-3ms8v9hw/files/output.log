@@ -1,0 +1,152 @@
+loading training instances, dir instances/randomip_n14_m38 idx 88
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[0]
+[0]
+/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/site-packages/cvxpy/expressions/expression.py:593: UserWarning:
+This use of ``*`` has resulted in matrix multiplication.
+Using ``*`` for matrix multiplication has been deprecated since CVXPY 1.1.
+    Use ``*`` for matrix-scalar and vector-scalar multiplication.
+    Use ``@`` for matrix-matrix and matrix-vector multiplication.
+    Use ``multiply`` for elementwise multiplication.
+This code path has been hit 1 times so far.
+  warnings.warn(msg, UserWarning)
+[0]
+[0]
+[1]
+[1]
+[0]
+[0]
+[0]
+[0]
+size of A :  (38, 14)
+size of B :  (38,)
+size of c :  (1, 14)
+The optimal value is 6.15659749985248
+A solution x is
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+size of A for solution :  (38, 52)
+size of B for solution:  (38,)
+size of c for solution:  (52,)
+/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/site-packages/cvxpy/expressions/expression.py:593: UserWarning:
+This use of ``*`` has resulted in matrix multiplication.
+Using ``*`` for matrix multiplication has been deprecated since CVXPY 1.1.
+    Use ``*`` for matrix-scalar and vector-scalar multiplication.
+    Use ``@`` for matrix-matrix and matrix-vector multiplication.
+    Use ``multiply`` for elementwise multiplication.
+This code path has been hit 2 times so far.
+  warnings.warn(msg, UserWarning)
+oringin IP obj = -34.288196405269915
+oringin IP solution = [  9.   0.   2.   8.   0.   0.   5.   1.  -0.  -0.   0.   1.  17.  -0.
+  33. 102.  40. 106.  40.  82.  48.   5.  89.  67.  41.   0.  25.  37.
+  51.  47.  58.   1.  25.  34.  64.   0.  38.   1.  67.  32.  75.  36.
+  20.  20.   0.   1.   1.  26.  93.  73.  56.  32.]
+size of A :  (88, 14)
+size of B :  (88,)
+size of c :  (1, 14)
+The optimal value is 6.15659749985248
+A solution x is
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+size of A for solution :  (88, 102)
+size of B for solution:  (88,)
+size of c for solution:  (102,)
+Interrupt request received
+final IP obj = 0.0
+final IP solution = [   0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.
+    0.    0.  135.  137.  129.  130.  136.  135.  136.  130.  133.  132.
+  137.  129.  134.  139.  134.  138.  130.  129.  135.  136.  134.  132.
+  133.  129.  131.  128.  134.  129.  130.  126.  130.  130.  128.  134.
+  134.  137.  131.  126.   34.  274.  420.  437.  542.  688.  705.  396.
+  810.  956. 1621.  368.  607.  846.  957. 1068. 1307. 1418. 1529. 1477.
+ 1426. 1428. 1929. 1911. 1860. 1862. 4612. 1603. 2325. 4520. 6715.  180.
+  483.  707.  803.  865.  488. 1448. 2245. 3042. 3223. 3266.  473.  653.

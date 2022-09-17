@@ -1,0 +1,11 @@
+loading training instances, dir instances/randomip_n8_m6 idx 45
+[0.01 0.02 0.03 0.04 0.09 0.1  0.12 0.15]
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+[0]
+[0]
+size of A :  (6, 8)
+size of B :  (6,)
+size of c :  (8,)
+size of A for solution :  (6, 14)
+size of B for solution:  (6,)

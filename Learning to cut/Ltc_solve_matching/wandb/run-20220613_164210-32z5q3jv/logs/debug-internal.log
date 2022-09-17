@@ -1,0 +1,90 @@
+2022-06-13 16:42:12,993 INFO    MainThread:36596 [internal.py:wandb_internal():93] W&B internal server running at pid: 36596, started at: 2022-06-13 16:42:12.993238
+2022-06-13 16:42:12,996 INFO    WriterThread:36596 [datastore.py:open_for_write():75] open: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/run-32z5q3jv.wandb
+2022-06-13 16:42:13,002 DEBUG   SenderThread:36596 [sender.py:send():232] send: header
+2022-06-13 16:42:13,002 DEBUG   SenderThread:36596 [sender.py:send():232] send: run
+2022-06-13 16:42:13,330 INFO    SenderThread:36596 [dir_watcher.py:__init__():197] watching files in: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/files
+2022-06-13 16:42:13,330 INFO    SenderThread:36596 [sender.py:_start_run_threads():814] run started: 32z5q3jv with start time 1655152931
+2022-06-13 16:42:13,330 DEBUG   SenderThread:36596 [sender.py:send():232] send: summary
+2022-06-13 16:42:13,331 INFO    SenderThread:36596 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 16:42:13,360 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: check_version
+2022-06-13 16:42:13,360 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: check_version
+2022-06-13 16:42:13,557 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: run_start
+2022-06-13 16:42:13,560 DEBUG   HandlerThread:36596 [meta.py:__init__():35] meta init
+2022-06-13 16:42:13,560 DEBUG   HandlerThread:36596 [meta.py:__init__():49] meta init done
+2022-06-13 16:42:13,560 DEBUG   HandlerThread:36596 [meta.py:probe():209] probe
+2022-06-13 16:42:13,562 DEBUG   HandlerThread:36596 [meta.py:_setup_git():199] setup git
+2022-06-13 16:42:13,615 DEBUG   HandlerThread:36596 [meta.py:_setup_git():206] setup git done
+2022-06-13 16:42:13,618 DEBUG   HandlerThread:36596 [meta.py:_save_pip():53] save pip
+2022-06-13 16:42:13,620 DEBUG   HandlerThread:36596 [meta.py:_save_pip():67] save pip done
+2022-06-13 16:42:13,620 DEBUG   HandlerThread:36596 [meta.py:_save_conda():74] save conda
+2022-06-13 16:42:14,342 INFO    Thread-12 :36596 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/files/wandb-summary.json
+2022-06-13 16:42:14,343 INFO    Thread-12 :36596 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/files/conda-environment.yaml
+2022-06-13 16:42:14,344 INFO    Thread-12 :36596 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/files/requirements.txt
+2022-06-13 16:42:16,324 DEBUG   HandlerThread:36596 [meta.py:_save_conda():84] save conda done
+2022-06-13 16:42:16,324 DEBUG   HandlerThread:36596 [meta.py:probe():247] probe done
+2022-06-13 16:42:16,337 DEBUG   SenderThread:36596 [sender.py:send():232] send: files
+2022-06-13 16:42:16,338 INFO    SenderThread:36596 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-13 16:42:16,353 INFO    Thread-12 :36596 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/files/conda-environment.yaml
+2022-06-13 16:42:16,353 INFO    Thread-12 :36596 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/files/wandb-metadata.json
+2022-06-13 16:42:16,384 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:42:16,384 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:42:16,775 DEBUG   SenderThread:36596 [sender.py:send():232] send: telemetry
+2022-06-13 16:42:16,978 INFO    Thread-16 :36596 [upload_job.py:push():132] Uploaded file /var/folders/14/bvt96sfn1fb2lngbphsrng0m0000gn/T/tmp_jo1j8kfwandb/2rb9fp36-wandb-metadata.json
+2022-06-13 16:42:17,356 INFO    Thread-12 :36596 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/files/output.log
+2022-06-13 16:42:19,365 INFO    Thread-12 :36596 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/files/output.log
+2022-06-13 16:42:31,784 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:42:31,784 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:42:42,502 DEBUG   SenderThread:36596 [sender.py:send():232] send: stats
+2022-06-13 16:42:44,464 INFO    Thread-12 :36596 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/files/config.yaml
+2022-06-13 16:42:46,945 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:42:46,945 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:43:02,109 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:43:02,109 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:43:13,401 DEBUG   SenderThread:36596 [sender.py:send():232] send: stats
+2022-06-13 16:43:17,411 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:43:17,411 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:43:32,786 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-13 16:43:32,787 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: stop_status
+2022-06-13 16:43:36,962 WARNING MainThread:36596 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-06-13 16:43:37,325 DEBUG   SenderThread:36596 [sender.py:send():232] send: telemetry
+2022-06-13 16:43:39,676 INFO    Thread-12 :36596 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220613_164210-32z5q3jv/files/output.log
+2022-06-13 16:43:39,913 DEBUG   SenderThread:36596 [sender.py:send():232] send: exit
+2022-06-13 16:43:39,913 INFO    SenderThread:36596 [sender.py:send_exit():368] handling exit code: 255
+2022-06-13 16:43:39,914 INFO    SenderThread:36596 [sender.py:send_exit():370] handling runtime: 86
+2022-06-13 16:43:39,914 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-13 16:43:39,915 INFO    SenderThread:36596 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 16:43:39,915 INFO    SenderThread:36596 [sender.py:send_exit():376] send defer
+2022-06-13 16:43:39,916 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: poll_exit
+2022-06-13 16:43:39,916 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:43:39,916 INFO    HandlerThread:36596 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-13 16:43:39,917 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:43:39,917 INFO    SenderThread:36596 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-06-13 16:43:39,917 INFO    SenderThread:36596 [sender.py:transition_state():389] send defer: 1
+2022-06-13 16:43:39,917 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:43:39,918 INFO    HandlerThread:36596 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-13 16:43:39,936 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:43:39,937 INFO    SenderThread:36596 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-06-13 16:43:39,937 INFO    SenderThread:36596 [sender.py:transition_state():389] send defer: 2
+2022-06-13 16:43:39,937 DEBUG   SenderThread:36596 [sender.py:send():232] send: stats
+2022-06-13 16:43:39,938 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:43:39,938 INFO    HandlerThread:36596 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-13 16:43:39,939 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:43:39,939 INFO    SenderThread:36596 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-06-13 16:43:39,939 INFO    SenderThread:36596 [sender.py:transition_state():389] send defer: 3
+2022-06-13 16:43:39,940 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:43:39,940 INFO    HandlerThread:36596 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-13 16:43:39,940 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:43:39,940 INFO    SenderThread:36596 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-06-13 16:43:39,940 INFO    SenderThread:36596 [sender.py:transition_state():389] send defer: 4
+2022-06-13 16:43:39,941 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:43:39,941 INFO    HandlerThread:36596 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-13 16:43:39,941 DEBUG   SenderThread:36596 [sender.py:send():232] send: summary
+2022-06-13 16:43:39,942 INFO    SenderThread:36596 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-13 16:43:39,942 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:43:39,943 INFO    SenderThread:36596 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-06-13 16:43:39,943 INFO    SenderThread:36596 [sender.py:transition_state():389] send defer: 5
+2022-06-13 16:43:39,943 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: defer
+2022-06-13 16:43:39,943 INFO    HandlerThread:36596 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-13 16:43:39,944 DEBUG   SenderThread:36596 [sender.py:send_request():246] send_request: defer
+2022-06-13 16:43:39,944 INFO    SenderThread:36596 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-06-13 16:43:40,023 DEBUG   HandlerThread:36596 [handler.py:handle_request():141] handle_request: poll_exit

@@ -1,0 +1,43 @@
+2022-06-09 15:14:34,936 INFO    MainThread:14126 [internal.py:wandb_internal():93] W&B internal server running at pid: 14126, started at: 2022-06-09 15:14:34.936023
+2022-06-09 15:14:34,939 INFO    WriterThread:14126 [datastore.py:open_for_write():75] open: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220609_151433-38owwvlc/run-38owwvlc.wandb
+2022-06-09 15:14:34,941 DEBUG   SenderThread:14126 [sender.py:send():232] send: header
+2022-06-09 15:14:34,941 DEBUG   SenderThread:14126 [sender.py:send():232] send: run
+2022-06-09 15:14:35,368 INFO    SenderThread:14126 [dir_watcher.py:__init__():197] watching files in: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220609_151433-38owwvlc/files
+2022-06-09 15:14:35,369 INFO    SenderThread:14126 [sender.py:_start_run_threads():814] run started: 38owwvlc with start time 1654802073
+2022-06-09 15:14:35,369 DEBUG   SenderThread:14126 [sender.py:send():232] send: summary
+2022-06-09 15:14:35,369 INFO    SenderThread:14126 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-09 15:14:35,389 DEBUG   HandlerThread:14126 [handler.py:handle_request():141] handle_request: check_version
+2022-06-09 15:14:35,389 DEBUG   SenderThread:14126 [sender.py:send_request():246] send_request: check_version
+2022-06-09 15:14:35,601 DEBUG   HandlerThread:14126 [handler.py:handle_request():141] handle_request: run_start
+2022-06-09 15:14:35,603 DEBUG   HandlerThread:14126 [meta.py:__init__():35] meta init
+2022-06-09 15:14:35,604 DEBUG   HandlerThread:14126 [meta.py:__init__():49] meta init done
+2022-06-09 15:14:35,604 DEBUG   HandlerThread:14126 [meta.py:probe():209] probe
+2022-06-09 15:14:35,605 DEBUG   HandlerThread:14126 [meta.py:_setup_git():199] setup git
+2022-06-09 15:14:35,640 DEBUG   HandlerThread:14126 [meta.py:_setup_git():206] setup git done
+2022-06-09 15:14:35,640 DEBUG   HandlerThread:14126 [meta.py:_save_pip():53] save pip
+2022-06-09 15:14:35,641 DEBUG   HandlerThread:14126 [meta.py:_save_pip():67] save pip done
+2022-06-09 15:14:35,641 DEBUG   HandlerThread:14126 [meta.py:_save_conda():74] save conda
+2022-06-09 15:14:36,379 INFO    Thread-12 :14126 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220609_151433-38owwvlc/files/wandb-summary.json
+2022-06-09 15:14:36,379 INFO    Thread-12 :14126 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220609_151433-38owwvlc/files/conda-environment.yaml
+2022-06-09 15:14:36,379 INFO    Thread-12 :14126 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220609_151433-38owwvlc/files/requirements.txt
+2022-06-09 15:14:37,127 DEBUG   HandlerThread:14126 [meta.py:_save_conda():84] save conda done
+2022-06-09 15:14:37,127 DEBUG   HandlerThread:14126 [meta.py:probe():247] probe done
+2022-06-09 15:14:37,137 DEBUG   SenderThread:14126 [sender.py:send():232] send: files
+2022-06-09 15:14:37,138 INFO    SenderThread:14126 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-09 15:14:37,173 DEBUG   HandlerThread:14126 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-09 15:14:37,174 DEBUG   SenderThread:14126 [sender.py:send_request():246] send_request: stop_status
+2022-06-09 15:14:37,376 INFO    Thread-12 :14126 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220609_151433-38owwvlc/files/conda-environment.yaml
+2022-06-09 15:14:37,376 INFO    Thread-12 :14126 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220609_151433-38owwvlc/files/wandb-metadata.json
+2022-06-09 15:14:37,377 INFO    Thread-12 :14126 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220609_151433-38owwvlc/files/output.log
+2022-06-09 15:14:37,524 DEBUG   SenderThread:14126 [sender.py:send():232] send: telemetry
+2022-06-09 15:14:37,535 WARNING FileStreamThread:14126 [file_stream.py:request_with_retry():598] requests_with_retry encountered retryable exception: ('Connection aborted.', OSError(22, 'Invalid argument')). func: <bound method Session.post of <requests.sessions.Session object at 0x7f802c04e510>>, args: ('https://api.wandb.ai/files/vrp/testproject/38owwvlc/file_stream',), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{}']}}, 'dropped': 0}}
+2022-06-09 15:14:37,938 INFO    Thread-16 :14126 [upload_job.py:push():132] Uploaded file /var/folders/14/bvt96sfn1fb2lngbphsrng0m0000gn/T/tmph1hp8ci0wandb/1e349o34-wandb-metadata.json
+2022-06-09 15:14:39,380 INFO    Thread-12 :14126 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220609_151433-38owwvlc/files/output.log
+2022-06-09 15:14:52,532 DEBUG   HandlerThread:14126 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-09 15:14:52,533 DEBUG   SenderThread:14126 [sender.py:send_request():246] send_request: stop_status
+2022-06-09 15:15:04,418 DEBUG   SenderThread:14126 [sender.py:send():232] send: stats
+2022-06-09 15:15:06,489 INFO    Thread-12 :14126 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220609_151433-38owwvlc/files/config.yaml
+2022-06-09 15:15:07,694 DEBUG   HandlerThread:14126 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-09 15:15:07,694 DEBUG   SenderThread:14126 [sender.py:send_request():246] send_request: stop_status
+2022-06-09 15:15:24,199 DEBUG   HandlerThread:14126 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-09 15:15:24,200 DEBUG   SenderThread:14126 [sender.py:send_request():246] send_request: stop_status

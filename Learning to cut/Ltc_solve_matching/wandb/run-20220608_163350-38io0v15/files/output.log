@@ -1,0 +1,47 @@
+loading training instances, dir instances/randomip_n8_m6 idx 0
+loading training instances, dir instances/randomip_n8_m6 idx 1
+loading training instances, dir instances/randomip_n8_m6 idx 2
+loading training instances, dir instances/randomip_n8_m6 idx 3
+loading training instances, dir instances/randomip_n8_m6 idx 4
+loading training instances, dir instances/randomip_n8_m6 idx 5
+loading training instances, dir instances/randomip_n8_m6 idx 6
+loading training instances, dir instances/randomip_n8_m6 idx 7
+loading training instances, dir instances/randomip_n8_m6 idx 8
+loading training instances, dir instances/randomip_n8_m6 idx 9
+loading training instances, dir instances/randomip_n8_m6 idx 10
+loading training instances, dir instances/randomip_n8_m6 idx 11
+loading training instances, dir instances/randomip_n8_m6 idx 12
+loading training instances, dir instances/randomip_n8_m6 idx 13
+loading training instances, dir instances/randomip_n8_m6 idx 14
+loading training instances, dir instances/randomip_n8_m6 idx 15
+loading training instances, dir instances/randomip_n8_m6 idx 16
+loading training instances, dir instances/randomip_n8_m6 idx 17
+loading training instances, dir instances/randomip_n8_m6 idx 18
+loading training instances, dir instances/randomip_n8_m6 idx 19
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+loading training instances, dir instances/randomip_n8_m6 idx 21
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1758, in <module>
+    main()
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1752, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1147, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 62, in <module>
+    explore_rate = min_explore_rate + \
+NameError: name 'min_explore_rate' is not defined
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1758, in <module>
+    main()
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1752, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1147, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 62, in <module>
+    explore_rate = min_explore_rate + \
+NameError: name 'min_explore_rate' is not defined

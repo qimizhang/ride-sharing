@@ -1,0 +1,69 @@
+loading training instances, dir instances/randomip_n8_m6 idx 88
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+[0.14225866 0.15195182 0.13350385 0.15011121 0.15651281 0.13297658
+ 0.1326851 ]
+Traceback (most recent call last):
+  File "/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/queue.py", line 167, in get
+    raise Empty
+_queue.Empty
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1758, in <module>
+    main()
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1752, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1147, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 67, in <module>
+    if training and explore:
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 67, in <module>
+    if training and explore:
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 980, in _pydevd_bundle.pydevd_cython_darwin_37_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 525, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 892, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 856, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 254, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.do_wait_suspend
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 888, in do_wait_suspend
+    self.process_internal_commands()
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 567, in process_internal_commands
+    int_cmd = queue.get(False)
+  File "/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/queue.py", line 182, in get
+    return item
+  File "/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/threading.py", line 243, in __exit__
+    def __exit__(self, *args):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/queue.py", line 167, in get
+    raise Empty
+_queue.Empty
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1758, in <module>
+    main()
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1752, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 1147, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 67, in <module>
+    if training and explore:
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 67, in <module>
+    if training and explore:
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 980, in _pydevd_bundle.pydevd_cython_darwin_37_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 525, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 892, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 856, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_37_64.pyx", line 254, in _pydevd_bundle.pydevd_cython_darwin_37_64.PyDBFrame.do_wait_suspend
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 888, in do_wait_suspend
+    self.process_internal_commands()
+  File "/Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py", line 567, in process_internal_commands
+    int_cmd = queue.get(False)
+  File "/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/queue.py", line 182, in get
+    return item
+  File "/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/threading.py", line 243, in __exit__
+    def __exit__(self, *args):
+KeyboardInterrupt

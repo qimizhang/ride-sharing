@@ -1,0 +1,36 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+size of A :  (34, 14)
+size of B :  (34,)
+size of c :  (1, 14)
+size of A for solution :  (34, 48)
+size of B for solution:  (34,)
+size of c for solution:  (48,)
+oringin IP obj = -1.8364183394937434
+oringin IP solution = [-0. -0. -0. -0. -0.  1. -0. -0. -0. -0.  1. -0. -0.  0.  0.  0.  0.  1.
+  0.  1.  1.  1.  1.  1.  1.  0.  1.  1.  1.  1.  0.  1.  1.  1.  0.  0.
+  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  0.  0.]
+size of A :  (41, 14)
+size of B :  (41,)
+size of c :  (1, 14)
+size of A for solution :  (41, 55)
+size of B for solution:  (41,)
+size of c for solution:  (55,)
+final IP obj = 0.0
+final IP solution = [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 1. 1. 0. 0. 1. 0. 1.]

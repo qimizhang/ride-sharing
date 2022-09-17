@@ -1,0 +1,22 @@
+{
+    "os": "Darwin-21.5.0-x86_64-i386-64bit",
+    "python": "3.7.12",
+    "heartbeatAt": "2022-06-20T20:34:12.885024",
+    "startedAt": "2022-06-20T20:34:11.445019",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "exmaple.py",
+    "codePath": "project/exmaple.py",
+    "git": {
+        "remote": "https://github.com/EricaWei053/Reinforcement-Learning.git",
+        "commit": "e4e3a4904275992302fa95e19285aa2b8d64e51f"
+    },
+    "email": "51829349+winterchoc@users.noreply.github.com",
+    "root": "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning",
+    "host": "zhangqimingdeMacBook-Pro.local",
+    "username": "zhangqiming",
+    "executable": "/Users/zhangqiming/opt/anaconda3/envs/LtC/bin/python3"
+}

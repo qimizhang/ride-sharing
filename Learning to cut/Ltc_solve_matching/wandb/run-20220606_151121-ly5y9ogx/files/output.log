@@ -1,0 +1,122 @@
+loading training instances, dir instances/randomip_n60_m60 idx 0
+loading training instances, dir instances/randomip_n60_m60 idx 1
+loading training instances, dir instances/randomip_n60_m60 idx 2
+loading training instances, dir instances/randomip_n60_m60 idx 3
+loading training instances, dir instances/randomip_n60_m60 idx 4
+loading training instances, dir instances/randomip_n60_m60 idx 5
+loading training instances, dir instances/randomip_n60_m60 idx 6
+loading training instances, dir instances/randomip_n60_m60 idx 7
+loading training instances, dir instances/randomip_n60_m60 idx 8
+loading training instances, dir instances/randomip_n60_m60 idx 9
+loading training instances, dir instances/randomip_n60_m60 idx 10
+loading training instances, dir instances/randomip_n60_m60 idx 11
+loading training instances, dir instances/randomip_n60_m60 idx 12
+loading training instances, dir instances/randomip_n60_m60 idx 13
+loading training instances, dir instances/randomip_n60_m60 idx 14
+loading training instances, dir instances/randomip_n60_m60 idx 15
+loading training instances, dir instances/randomip_n60_m60 idx 16
+loading training instances, dir instances/randomip_n60_m60 idx 17
+loading training instances, dir instances/randomip_n60_m60 idx 18
+loading training instances, dir instances/randomip_n60_m60 idx 19
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+episode:  0
+sum reward:  0.2728014378410535
+episode:  1
+sum reward:  0.3792470687064906
+episode:  2
+sum reward:  0.7201404175543757
+episode:  3
+sum reward:  0.6982991830077481
+episode:  4
+sum reward:  0.20371165610185926
+episode:  5
+sum reward:  0.6049971176130384
+episode:  6
+sum reward:  0.17186037205465254
+episode:  7
+sum reward:  0.7016703101267012
+episode:  8
+sum reward:  0.47713328746181105
+episode:  9
+sum reward:  0.7356487929419018
+episode:  10
+sum reward:  0.43154713802073275
+episode:  11
+sum reward:  0.702260854193355
+episode:  12
+sum reward:  0.964995842101871
+episode:  13
+sum reward:  0.35262687984686636
+episode:  14
+sum reward:  0.19797872823642138
+episode:  15
+sum reward:  0.6248641672141275
+episode:  16
+sum reward:  0.1153490818719547
+episode:  17
+sum reward:  0.53453942474016
+episode:  18
+sum reward:  0.9502730507037995
+episode:  19
+sum reward:  0.7077630298242639
+episode:  20
+sum reward:  0.702260854193355
+episode:  21
+sum reward:  0.7016703101267012
+episode:  22
+sum reward:  0.17186037205465254
+episode:  23
+sum reward:  0.6248641672141275
+episode:  24
+sum reward:  0.6049971176130384
+episode:  25
+sum reward:  0.7077630298242639
+episode:  26
+sum reward:  0.53453942474016
+episode:  27
+sum reward:  0.9502730507037995
+episode:  28
+sum reward:  0.1153490818719547
+episode:  29
+sum reward:  0.20371165610185926
+episode:  30
+sum reward:  0.47713328746181105
+episode:  31
+sum reward:  0.2728014378410535
+episode:  32
+sum reward:  0.964995842101871
+episode:  33
+sum reward:  0.7201404175543757
+episode:  34
+sum reward:  0.43154713802073275
+episode:  35
+sum reward:  0.7356487929419018
+episode:  36
+sum reward:  0.35262687984686636
+episode:  37
+sum reward:  0.3792470687064906
+episode:  38
+sum reward:  0.19797872823642138
+episode:  39
+sum reward:  0.6982991830077481
+episode:  40
+sum reward:  0.3792470687064906
+episode:  41
+sum reward:  0.47713328746181105
+episode:  42
+sum reward:  0.702260854193355
+episode:  43
+sum reward:  0.6049971176130384
+episode:  44
+sum reward:  0.1153490818719547
+episode:  45
+sum reward:  0.7016703101267012
+episode:  46
+sum reward:  0.17186037205465254
+episode:  47
+sum reward:  0.19797872823642138
+episode:  48
+sum reward:  0.6248641672141275
+episode:  49
+sum reward:  0.7077630298242639

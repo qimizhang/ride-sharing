@@ -1,0 +1,26 @@
+2022-06-08 16:35:31,603 INFO    MainThread:5650 [wandb_setup.py:_flush():76] Loading settings from /Users/zhangqiming/.config/wandb/settings
+2022-06-08 16:35:31,603 INFO    MainThread:5650 [wandb_setup.py:_flush():76] Loading settings from /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/settings
+2022-06-08 16:35:31,603 INFO    MainThread:5650 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-06-08 16:35:31,604 INFO    MainThread:5650 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'project/exmaple.py', 'program': '/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py'}
+2022-06-08 16:35:31,604 INFO    MainThread:5650 [wandb_init.py:_log_setup():428] Logging user logs to /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220608_163531-2fkai4e4/logs/debug.log
+2022-06-08 16:35:31,604 INFO    MainThread:5650 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/wandb/run-20220608_163531-2fkai4e4/logs/debug-internal.log
+2022-06-08 16:35:31,604 INFO    MainThread:5650 [wandb_init.py:init():462] calling init triggers
+2022-06-08 16:35:31,604 INFO    MainThread:5650 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {}
+2022-06-08 16:35:31,605 INFO    MainThread:5650 [wandb_init.py:init():515] starting backend
+2022-06-08 16:35:31,605 INFO    MainThread:5650 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-06-08 16:35:31,621 INFO    MainThread:5650 [backend.py:ensure_launched():217] starting backend process...
+2022-06-08 16:35:31,861 INFO    MainThread:5650 [backend.py:ensure_launched():222] started backend process with pid: 5659
+2022-06-08 16:35:31,866 INFO    MainThread:5650 [wandb_init.py:init():525] backend started and connected
+2022-06-08 16:35:31,904 INFO    MainThread:5650 [wandb_init.py:init():596] updated telemetry
+2022-06-08 16:35:31,940 INFO    MainThread:5650 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2022-06-08 16:35:34,754 INFO    MainThread:5650 [wandb_run.py:_on_init():1924] communicating current version
+2022-06-08 16:35:37,248 INFO    MainThread:5650 [wandb_run.py:_on_init():1928] got version response 
+2022-06-08 16:35:37,248 INFO    MainThread:5650 [wandb_init.py:init():662] starting run threads in backend
+2022-06-08 16:35:38,736 INFO    MainThread:5650 [wandb_run.py:_console_start():1898] atexit reg
+2022-06-08 16:35:38,741 INFO    MainThread:5650 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2022-06-08 16:35:38,743 INFO    MainThread:5650 [wandb_run.py:_redirect():1776] Redirecting console.
+2022-06-08 16:35:38,749 INFO    MainThread:5650 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-06-08 16:35:38,750 INFO    MainThread:5650 [wandb_init.py:init():688] run started, returning control to user process
+2022-06-08 16:35:43,078 INFO    MainThread:5650 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 255
+2022-06-08 16:35:43,080 INFO    MainThread:5650 [wandb_run.py:_restore():1839] restore

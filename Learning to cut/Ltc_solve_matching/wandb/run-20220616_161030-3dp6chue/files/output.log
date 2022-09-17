@@ -1,0 +1,234 @@
+loading training instances, dir instances/randomip_n100_m20 idx 0
+loading training instances, dir instances/randomip_n100_m20 idx 1
+loading training instances, dir instances/randomip_n100_m20 idx 2
+loading training instances, dir instances/randomip_n100_m20 idx 3
+loading training instances, dir instances/randomip_n100_m20 idx 4
+loading training instances, dir instances/randomip_n100_m20 idx 5
+loading training instances, dir instances/randomip_n100_m20 idx 6
+loading training instances, dir instances/randomip_n100_m20 idx 7
+loading training instances, dir instances/randomip_n100_m20 idx 8
+loading training instances, dir instances/randomip_n100_m20 idx 9
+loading training instances, dir instances/randomip_n100_m20 idx 10
+loading training instances, dir instances/randomip_n100_m20 idx 11
+loading training instances, dir instances/randomip_n100_m20 idx 12
+loading training instances, dir instances/randomip_n100_m20 idx 13
+loading training instances, dir instances/randomip_n100_m20 idx 14
+loading training instances, dir instances/randomip_n100_m20 idx 15
+loading training instances, dir instances/randomip_n100_m20 idx 16
+loading training instances, dir instances/randomip_n100_m20 idx 17
+loading training instances, dir instances/randomip_n100_m20 idx 18
+loading training instances, dir instances/randomip_n100_m20 idx 19
+loading training instances, dir instances/randomip_n100_m20 idx 20
+loading training instances, dir instances/randomip_n100_m20 idx 21
+loading training instances, dir instances/randomip_n100_m20 idx 22
+loading training instances, dir instances/randomip_n100_m20 idx 23
+loading training instances, dir instances/randomip_n100_m20 idx 24
+loading training instances, dir instances/randomip_n100_m20 idx 25
+loading training instances, dir instances/randomip_n100_m20 idx 26
+loading training instances, dir instances/randomip_n100_m20 idx 27
+loading training instances, dir instances/randomip_n100_m20 idx 28
+loading training instances, dir instances/randomip_n100_m20 idx 29
+loading training instances, dir instances/randomip_n100_m20 idx 30
+loading training instances, dir instances/randomip_n100_m20 idx 31
+loading training instances, dir instances/randomip_n100_m20 idx 32
+loading training instances, dir instances/randomip_n100_m20 idx 33
+loading training instances, dir instances/randomip_n100_m20 idx 34
+loading training instances, dir instances/randomip_n100_m20 idx 35
+loading training instances, dir instances/randomip_n100_m20 idx 36
+loading training instances, dir instances/randomip_n100_m20 idx 37
+loading training instances, dir instances/randomip_n100_m20 idx 38
+loading training instances, dir instances/randomip_n100_m20 idx 39
+loading training instances, dir instances/randomip_n100_m20 idx 40
+loading training instances, dir instances/randomip_n100_m20 idx 41
+loading training instances, dir instances/randomip_n100_m20 idx 42
+loading training instances, dir instances/randomip_n100_m20 idx 43
+loading training instances, dir instances/randomip_n100_m20 idx 44
+loading training instances, dir instances/randomip_n100_m20 idx 45
+loading training instances, dir instances/randomip_n100_m20 idx 46
+loading training instances, dir instances/randomip_n100_m20 idx 47
+loading training instances, dir instances/randomip_n100_m20 idx 48
+loading training instances, dir instances/randomip_n100_m20 idx 49
+loading training instances, dir instances/randomip_n100_m20 idx 50
+loading training instances, dir instances/randomip_n100_m20 idx 51
+loading training instances, dir instances/randomip_n100_m20 idx 52
+loading training instances, dir instances/randomip_n100_m20 idx 53
+loading training instances, dir instances/randomip_n100_m20 idx 54
+loading training instances, dir instances/randomip_n100_m20 idx 55
+loading training instances, dir instances/randomip_n100_m20 idx 56
+loading training instances, dir instances/randomip_n100_m20 idx 57
+loading training instances, dir instances/randomip_n100_m20 idx 58
+loading training instances, dir instances/randomip_n100_m20 idx 59
+loading training instances, dir instances/randomip_n100_m20 idx 60
+loading training instances, dir instances/randomip_n100_m20 idx 61
+loading training instances, dir instances/randomip_n100_m20 idx 62
+loading training instances, dir instances/randomip_n100_m20 idx 63
+loading training instances, dir instances/randomip_n100_m20 idx 64
+loading training instances, dir instances/randomip_n100_m20 idx 65
+loading training instances, dir instances/randomip_n100_m20 idx 66
+loading training instances, dir instances/randomip_n100_m20 idx 67
+loading training instances, dir instances/randomip_n100_m20 idx 68
+loading training instances, dir instances/randomip_n100_m20 idx 69
+loading training instances, dir instances/randomip_n100_m20 idx 70
+loading training instances, dir instances/randomip_n100_m20 idx 71
+loading training instances, dir instances/randomip_n100_m20 idx 72
+loading training instances, dir instances/randomip_n100_m20 idx 73
+loading training instances, dir instances/randomip_n100_m20 idx 74
+loading training instances, dir instances/randomip_n100_m20 idx 75
+loading training instances, dir instances/randomip_n100_m20 idx 76
+loading training instances, dir instances/randomip_n100_m20 idx 77
+loading training instances, dir instances/randomip_n100_m20 idx 78
+loading training instances, dir instances/randomip_n100_m20 idx 79
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+rl_cuts.py:138: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  /Users/runner/miniforge3/conda-bld/pytorch-recipe_1651023336355/work/torch/csrc/utils/tensor_new.cpp:210.)
+  actions = torch.LongTensor(actions)
+episode:  0
+sum reward:  0.13598310399800084
+Loss:  516.3914588317275
+episode:  1
+sum reward:  0.0404065670660998
+Loss:  -235.57787763758097
+episode:  2
+sum reward:  0.038129151222562996
+Loss:  858.5486483573914
+episode:  3
+sum reward:  0.025295503222537263
+Loss:  343.60859781961335
+episode:  4
+sum reward:  0.059942307199321476
+Loss:  -746.2654074211837
+episode:  5
+sum reward:  0.05158744492786127
+Loss:  349.3768011201173
+episode:  6
+sum reward:  0.0492205168868054
+Loss:  -50.95377492904663
+episode:  7
+sum reward:  0.03485403530333997
+Loss:  370.8102414976456
+episode:  8
+sum reward:  0.1309802800057014
+Loss:  -43.838939764362294
+episode:  9
+sum reward:  0.011464314801457931
+Loss:  447.4862884458853
+episode:  10
+sum reward:  0.748349247883823
+Loss:  603.8712422847748
+episode:  11
+sum reward:  0.6854256739392213
+Loss:  174.5350341796875
+episode:  12
+sum reward:  0.45345952041003557
+Loss:  -104.7434487344508
+episode:  13
+sum reward:  0.29763673424957915
+Loss:  163.35510343313217
+episode:  14
+sum reward:  0.780542053095246
+Loss:  -141.13115335372277
+episode:  15
+sum reward:  0.5360554843900331
+Loss:  -325.30579900741577
+episode:  16
+sum reward:  0.37486887046702577
+Loss:  499.8934517578373
+episode:  17
+sum reward:  0.6022919028970932
+Loss:  349.64430302917026
+episode:  18
+sum reward:  0.3261309018824363
+Loss:  -128.44354343414307
+episode:  19
+sum reward:  0.707535660567487
+Loss:  -744.9443979859352
+episode:  20
+sum reward:  0.5767066134246761
+Loss:  -278.5474452972412
+episode:  21
+sum reward:  0.8495495828953494
+Loss:  -452.7417187900355
+episode:  22
+sum reward:  0.4767184253335017
+Loss:  112.71771150577126
+episode:  23
+sum reward:  0.029213490068002557
+Loss:  243.79175102710724
+episode:  24
+sum reward:  0.8245706976327938
+Loss:  -750.4587697228999
+episode:  25
+sum reward:  0.2142897782188129
+Loss:  683.5425225254148
+episode:  26
+sum reward:  0.4484181786335171
+Loss:  -919.8513328573109
+episode:  27
+sum reward:  0.7915140032170598
+Loss:  -192.59739900223425
+episode:  28
+sum reward:  0.27482200414988256
+Loss:  -318.93492702838785
+episode:  29
+sum reward:  0.36482236573692717
+Loss:  121.80697441898428
+episode:  30
+sum reward:  0.4805241103748017
+Loss:  995.3979594707489
+episode:  31
+sum reward:  0.1335662341967918
+Loss:  320.41593646542617
+episode:  32
+sum reward:  0.3866795354403507
+Loss:  580.9469403408384
+episode:  33
+sum reward:  0.6979169068209217
+Loss:  203.28462934494019
+episode:  34
+sum reward:  0.3485327499950017
+Loss:  -80.09729194641113
+episode:  35
+sum reward:  0.5764879356406141
+Loss:  -10.419524676774728
+episode:  36
+sum reward:  0.29129469578828093
+Loss:  -196.38403606414795
+episode:  37
+sum reward:  0.059919410605402845
+Loss:  23.875313758850098
+episode:  38
+sum reward:  0.06482117865175496
+Loss:  8.225534915924072
+episode:  39
+sum reward:  0.10830285367222814
+Loss:  543.224939584732
+episode:  40
+sum reward:  0.02414286274574806
+Loss:  -212.5192813873291
+episode:  41
+sum reward:  0.6970249459603224
+Loss:  -748.3186111450195
+episode:  42
+sum reward:  0.030719186724468273
+Loss:  342.14595317840576
+episode:  43
+sum reward:  0.09342444071154432
+Loss:  614.909029006958
+episode:  44
+sum reward:  0.04952716785840039
+Loss:  316.2920446395874
+episode:  45
+sum reward:  0.8432989555988115
+Loss:  -136.56288749352098
+episode:  46
+sum reward:  0.08005058513163021
+Loss:  -142.6547451019287
+episode:  47
+sum reward:  0.26930188866106164
+Loss:  -115.3751606204728
+episode:  48
+sum reward:  0.3321333445957748
+Loss:  21.9207181930542
+episode:  49
+sum reward:  0.0323078556293126
+Loss:  -186.57721197605133

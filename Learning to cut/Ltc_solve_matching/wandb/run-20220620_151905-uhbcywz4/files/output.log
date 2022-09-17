@@ -1,0 +1,17 @@
+loading training instances, dir instances/randomip_n2_m10 idx 99
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+[1]
+[1]
+[1]
+[1]
+[0]
+[0]
+[0]
+[0]
+/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py:122: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  acts.append(available_cuts[acts_max])
+Traceback (most recent call last):
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 122, in <module>
+    acts.append(available_cuts[acts_max])
+IndexError: too many indices for array: array is 2-dimensional, but 3 were indexed

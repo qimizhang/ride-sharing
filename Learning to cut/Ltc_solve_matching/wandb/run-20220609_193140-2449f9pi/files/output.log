@@ -1,0 +1,19 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+Traceback (most recent call last):
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 84, in <module>
+    s = test_env.reset()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 176, in reset
+    return self.env.reset()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 107, in reset
+    s, d = self._reset()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 103, in _reset
+    self.A,self.b,self.cuts_a,self.cuts_b,self.done,self.oldobj,self.x,self.tab = compute_state(self.A0,self.b0,self.c0)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 39, in compute_state
+    obj,sol,basis_index,rc = GurobiSolve(A_tilde,b_tilde,c_tilde)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gurobiutils.py", line 42, in GurobiSolve
+    solution.append(X[i].X);
+  File "src/gurobipy/var.pxi", line 125, in gurobipy.Var.__getattr__
+  File "src/gurobipy/var.pxi", line 153, in gurobipy.Var.getAttr
+  File "src/gurobipy/attrutil.pxi", line 100, in gurobipy.__getattr
+AttributeError: Unable to retrieve attribute 'X'

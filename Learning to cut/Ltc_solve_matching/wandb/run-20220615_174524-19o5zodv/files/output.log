@@ -1,0 +1,155 @@
+loading training instances, dir instances/randomip_n14_m38 idx 88
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+[1]
+[1]
+[1]
+[1]
+[1]
+[1]
+[0]
+[0]
+[0]
+[0]
+/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/site-packages/cvxpy/expressions/expression.py:593: UserWarning:
+This use of ``*`` has resulted in matrix multiplication.
+Using ``*`` for matrix multiplication has been deprecated since CVXPY 1.1.
+    Use ``*`` for matrix-scalar and vector-scalar multiplication.
+    Use ``@`` for matrix-matrix and matrix-vector multiplication.
+    Use ``multiply`` for elementwise multiplication.
+This code path has been hit 1 times so far.
+  warnings.warn(msg, UserWarning)
+/Users/zhangqiming/opt/anaconda3/envs/LtC/lib/python3.7/site-packages/cvxpy/expressions/expression.py:593: UserWarning:
+This use of ``*`` has resulted in matrix multiplication.
+Using ``*`` for matrix multiplication has been deprecated since CVXPY 1.1.
+    Use ``*`` for matrix-scalar and vector-scalar multiplication.
+    Use ``@`` for matrix-matrix and matrix-vector multiplication.
+    Use ``multiply`` for elementwise multiplication.
+This code path has been hit 2 times so far.
+  warnings.warn(msg, UserWarning)
+Traceback (most recent call last):
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 204, in <module>
+    compute_solution()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 195, in compute_solution
+    objint_f, solution_int = gurobiutils.GurobiIntSolve(A, b, c)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gurobiutils.py", line 14, in GurobiIntSolve
+    C = m.addConstrs((sum(A[i,j]*X[j] for j in varrange)==b[i] for i in crange),'C')
+  File "src/gurobipy/model.pxi", line 3535, in gurobipy.Model.addConstrs
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gurobiutils.py", line 14, in <genexpr>
+    C = m.addConstrs((sum(A[i,j]*X[j] for j in varrange)==b[i] for i in crange),'C')
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gurobiutils.py", line 14, in <genexpr>
+    C = m.addConstrs((sum(A[i,j]*X[j] for j in varrange)==b[i] for i in crange),'C')
+KeyboardInterrupt
+[1]
+[1]
+[0]
+[0]
+[0]
+[0]
+size of A :  (38, 14)
+size of B :  (38,)
+size of c :  (1, 14)
+The optimal value is 0.0
+A solution x is
+[-0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0.]
+size of A for solution :  (38, 52)
+size of B for solution:  (38,)
+size of c for solution:  (52,)
+oringin IP obj = -34.288196405269915
+oringin IP solution = [  9.   0.   2.   8.   0.   0.   5.   1.  -0.  -0.   0.   1.  17.  -0.
+  33. 102.  40. 106.  40.  82.  48.   5.  89.  67.  41.   0.  25.  37.
+  51.  47.  58.   1.  25.  34.  64.   0.  38.   1.  67.  32.  75.  36.
+  20.  20.   0.   1.   1.  26.  93.  73.  56.  32.]
+size of A :  (88, 14)
+size of B :  (88,)
+size of c :  (1, 14)
+The optimal value is 0.0
+A solution x is
+[-0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0. -0.]
+size of A for solution :  (88, 102)
+size of B for solution:  (88,)
+size of c for solution:  (102,)

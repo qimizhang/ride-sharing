@@ -1,0 +1,30 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+error in lp iteration
+size of A :  (38, 14)
+size of B :  (38,)
+size of c :  (1, 14)
+size of A for solution :  (38, 52)
+size of B for solution:  (38,)
+size of c for solution:  (52,)
+oringin IP obj = -2.2240222662802753
+oringin IP solution = [ 1. -0. -0. -0. -0. -0. -0.  1. -0. -0.  0.  0.  1.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.  1.  1.  1.  1.  1.  1.  0.  1.  1.  1.  1.
+  0.  1.  1.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.]
+size of A :  (59, 14)
+size of B :  (59,)
+size of c :  (1, 14)
+size of A for solution :  (59, 73)
+size of B for solution:  (59,)
+size of c for solution:  (73,)
+Traceback (most recent call last):
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 175, in <module>
+    compute_solution()
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/exmaple.py", line 168, in compute_solution
+    objint_f, solution_int = gurobiutils.GurobiIntSolve(A, b, c)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gurobiutils.py", line 20, in GurobiIntSolve
+    solution.append(X[i].X);
+  File "src/gurobipy/var.pxi", line 125, in gurobipy.Var.__getattr__
+  File "src/gurobipy/var.pxi", line 153, in gurobipy.Var.getAttr
+  File "src/gurobipy/attrutil.pxi", line 100, in gurobipy.__getattr
+AttributeError: Unable to retrieve attribute 'X'

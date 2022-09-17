@@ -1,0 +1,174 @@
+loading training instances, dir instances/randomip_n14_m38 idx 0
+loading training instances, dir instances/randomip_n14_m38 idx 1
+loading training instances, dir instances/randomip_n14_m38 idx 2
+loading training instances, dir instances/randomip_n14_m38 idx 3
+loading training instances, dir instances/randomip_n14_m38 idx 4
+loading training instances, dir instances/randomip_n14_m38 idx 5
+loading training instances, dir instances/randomip_n14_m38 idx 6
+loading training instances, dir instances/randomip_n14_m38 idx 7
+loading training instances, dir instances/randomip_n14_m38 idx 8
+loading training instances, dir instances/randomip_n14_m38 idx 9
+loading training instances, dir instances/randomip_n14_m38 idx 10
+loading training instances, dir instances/randomip_n14_m38 idx 11
+loading training instances, dir instances/randomip_n14_m38 idx 12
+loading training instances, dir instances/randomip_n14_m38 idx 13
+loading training instances, dir instances/randomip_n14_m38 idx 14
+loading training instances, dir instances/randomip_n14_m38 idx 15
+loading training instances, dir instances/randomip_n14_m38 idx 16
+loading training instances, dir instances/randomip_n14_m38 idx 17
+loading training instances, dir instances/randomip_n14_m38 idx 18
+loading training instances, dir instances/randomip_n14_m38 idx 19
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-06-01
+rl_cuts.py:138: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  /Users/runner/miniforge3/conda-bld/pytorch-recipe_1651023336355/work/torch/csrc/utils/tensor_new.cpp:210.)
+  actions = torch.LongTensor(actions)
+episode:  0
+sum reward:  0.48939896172623776
+Loss:  -1131.424183011055
+episode:  1
+sum reward:  0.314720507767575
+Loss:  -237.52904412212956
+episode:  2
+sum reward:  0.6670550802114477
+Loss:  19.307927641126298
+episode:  3
+sum reward:  1.0332298981114647
+Loss:  906.8847064971924
+episode:  4
+sum reward:  0.1503852746499632
+Loss:  43.986211168834416
+episode:  5
+sum reward:  0.8899735272216063
+Loss:  280.9350263373926
+episode:  6
+sum reward:  0.2110559543350803
+Loss:  606.0682611465454
+episode:  7
+sum reward:  0.4366222161321005
+Loss:  999.0632920265198
+episode:  8
+sum reward:  0.34963891666576785
+Loss:  -92.28913432359695
+episode:  9
+sum reward:  0.4517937852031295
+Loss:  580.3644239902496
+episode:  10
+sum reward:  0.9692557040782432
+Loss:  370.2899270057678
+episode:  11
+sum reward:  0.8123754374149428
+Loss:  -298.8488700389862
+episode:  12
+sum reward:  0.18535739879523305
+Loss:  605.7326097488403
+episode:  13
+sum reward:  0.7419956276999997
+Loss:  273.6452262401581
+episode:  14
+sum reward:  0.9859574479276745
+Loss:  360.6754126548767
+episode:  15
+sum reward:  0.36564729604355506
+Loss:  497.6425075531006
+episode:  16
+sum reward:  0.7537745396425919
+Loss:  78.4410388469696
+episode:  17
+sum reward:  0.1135616024851629
+Loss:  -111.58313190937042
+episode:  18
+sum reward:  0.3542557947996485
+Loss:  795.3224947452545
+episode:  19
+sum reward:  0.39572098886391416
+Loss:  233.31073611974716
+episode:  20
+sum reward:  0.4366222161321147
+Loss:  -50.33511209487915
+episode:  21
+sum reward:  0.75377453964267
+Loss:  55.66104328632355
+episode:  22
+sum reward:  0.45179378520304425
+Loss:  71.22952651977539
+episode:  23
+sum reward:  0.2110559543351016
+Loss:  -340.9334964752197
+episode:  24
+sum reward:  0.34963891666578917
+Loss:  654.1694808006287
+episode:  25
+sum reward:  0.3147205077676176
+Loss:  -9.554735660552979
+episode:  26
+sum reward:  0.6670550802114619
+Loss:  -27.411906719207764
+episode:  27
+sum reward:  0.3957209888639355
+Loss:  -109.09832072257996
+episode:  28
+sum reward:  0.9692557040782432
+Loss:  813.9755611419678
+episode:  29
+sum reward:  0.11356160248511316
+Loss:  -936.0080833435059
+episode:  30
+sum reward:  0.9859574479276461
+Loss:  318.87721252441406
+episode:  31
+sum reward:  1.1503852746499703
+Loss:  -289.6994160413742
+episode:  32
+sum reward:  0.3542557947996414
+Loss:  -257.7040548324585
+episode:  33
+sum reward:  0.18535739879523305
+Loss:  1020.9991272687912
+episode:  34
+sum reward:  0.74199562769995
+Loss:  217.18319845199585
+episode:  35
+sum reward:  0.8123754374149215
+Loss:  -191.97964096069336
+episode:  36
+sum reward:  0.8899735272215352
+Loss:  140.18791007995605
+episode:  37
+sum reward:  0.3656472960436332
+Loss:  240.7636834383011
+episode:  38
+sum reward:  1.0332298981115926
+Loss:  -98.33161401748657
+episode:  39
+sum reward:  0.48939896172620934
+Loss:  -713.5038378238678
+episode:  40
+sum reward:  0.1135616024851629
+Loss:  62.318209171295166
+episode:  41
+sum reward:  0.8899735272215636
+Loss:  -55.79729890823364
+episode:  42
+sum reward:  0.21105595433512292
+Loss:  -484.40214824676514
+episode:  43
+sum reward:  0.7419956276999571
+Loss:  240.94816756248474
+episode:  44
+sum reward:  0.8123754374149854
+Loss:  -108.54098558425903
+episode:  45
+sum reward:  0.4366222161320721
+Loss:  233.83545303344727
+episode:  46
+sum reward:  0.45179378520316504
+Loss:  -214.5610580444336
+episode:  47
+sum reward:  0.9859574479276532
+Loss:  68.13288712501526
+episode:  48
+sum reward:  0.3147205077674826
+Loss:  -61.20124578475952
+episode:  49
+sum reward:  0.3656472960435835
+Loss:  514.204568862915

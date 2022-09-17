@@ -1,0 +1,10 @@
+
+loading training instances, dir instances/test_100_n60_m60 idx 0
+Traceback (most recent call last):
+  File "rl_cuts.py", line 195, in <module>
+    env = make_multiple_env(**test_config)
+  File "/Users/zhangqiming/Desktop/RL_research/Reinforcement-Learning/project/gymenv_v2.py", line 191, in make_multiple_env
+    A = np.load('{}/A_{}.npy'.format(load_dir, idx))
+  File "/Users/zhangqiming/.local/lib/python3.7/site-packages/numpy/lib/npyio.py", line 417, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: 'instances/test_100_n60_m60/A_0.npy'
